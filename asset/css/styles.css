@@ -145,15 +145,24 @@ footer{
     height: 100%;
     width: 4%;
     flex-grow: 1;
+    border-radius: 4px;
     background-color: var(--darkest);
+    display: flex;
+    align-items: center;
+}
 
+.altBar{
+    width: 2px;
+    height: 80%;
+    background-color: var(--white);
+    border-radius: 4px;
+    margin-left: 4px;
 }
 
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: darkgreen; */
 }
 
 .priceInfo{
@@ -170,20 +179,30 @@ footer{
 
 .notesArea textarea{
     resize: none;
+    min-height: 8rem;
     width: 100%;
     border-radius: 0;
     border: none;
     margin: .5rem 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--white);
 }
 
-
+footer nav{
+    height: 3rem;
+}
 
 footer nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100%;
+}
+
+li button{
+    border: none;
+    border-radius: 0;
+    background-color: none;
 }
 
 
