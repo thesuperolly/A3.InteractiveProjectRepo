@@ -6,10 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/css/reset.css">
     <link rel="stylesheet" href="asset/css/styles.css">
+    <script src="https://kit.fontawesome.com/edf0e5948a.js" crossorigin="anonymous"></script>
     <title>Domain Inspections</title>
 </head>
 <body>
     
+    <!-- App Container -->
+    <div class="container">
+
+        <!-- Header /day info -->
+        <Header>
+            <div class="days">
+                <div class="day today">today</div>
+                <div class="day">day 2</div>
+                <div class="day">day 3</div>
+                <div class="day">day 4</div>
+                <div class="day">day 5</div>
+                <div class="day">day 6</div>
+                <div class="day">day7</div>
+            </div>
+        </Header>
+
+        <!-- Main app content -->
+        <main>
+            <h1>Inspections</h1>
+
+            <!-- A prototype of a line item. -->
+            <div class="card">
+                <!-- Initial visible card areas -->
+                <div class="lineItem">
+                    <div class="cardLeft">
+                        <div class="cardThumbnail">
+                            <img src="https://via.placeholder.com/112x80?text=Inspections" alt="">
+                        </div>
+                        <div class="cardCenter">
+                            <h4>Address info</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="cardRight">
+                            <h5>12:00 - 12:15</h5>
+                            <div class="cardRightIcons">
+                                <div><i class="fas fa-info-circle"></i></div>
+                                <div><i class="fas fa-map-marker-alt"></i></div>
+                                <div><i class="fas fa-times-circle"></i></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- This is the card delete section -->
+                    <div class="cardAlt">
+                        <div></div>
+                    </div>  
+                </div>
+
+                <!-- more info appears in this div -->
+                <div class="info">
+                    <div class="priceInfo">
+                        <h2>
+                            <span class="priceType">$</span>
+                            <span class="price">...</span>
+                        </h2>
+                    </div>
+                    <div class="notesArea">
+                        <h4>Notes:</h4>
+                        <textarea name=""></textarea>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Demo card end -->
+
+
+            <!-- Old sample card -->
+            <div class="card">
+                <div class="cardLeft">
+                    <div class="cardThumbnail">
+                        <img src="https://via.placeholder.com/112x80?text=Inspections" alt="">
+                    </div>
+                    <div class="cardCenter">
+                        <h4>Address info</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cardRight">
+                        <h5>12:00 - 12:15</h5>
+                        <div class="cardRightIcons">
+                            <div><i class="fas fa-info-circle"></i></div>
+                            <div><i class="fas fa-directions"></i></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="cardAlt">
+                    <div></div>
+                </div>
+            </div>
+        </main>
+
+    <!-- footer and promay nav info -->
+        <footer>
+            <nav>
+                <ul>
+                    <li>My Ratings</li>
+                    <li>Inspections</li>
+                    <li>Key Dates</li>
+                </ul>
+            </nav>
+        </footer>
+        
+
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,221 @@
+/* Universal Styles */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+:root{
+    --mainGreen: #0ea800;
+    --white: #FFFFFF;
+    --backGrey: #F2F5F7;
+    --borderGrey: #D0D3D8;
+    --darkest: #3E4659;
+}
+
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    color: var(--darkest);
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(78, 93, 105);
+}
+
+.container{
+    height: 812px;
+    width: 375px;
+    background-color: var(--backGrey);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: flex-start; */
+}
+
+/* Main Components */
+
+header{
+    align-self: flex-start;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--mainGreen);
+    border-radius: 0 0 4px 4px;
+
+}
+
+main{
+    width: 100%;
+    height: calc(100% - 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer{
+    width: 100%;
+    align-self: flex-end;
+    background-color: var(--mainGreen);
+    min-height: 3rem;
+}
+
+/* Main Contents Components */
+
+.days{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.day{
+    height: 100%;
+    width: calc(100%/7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    border-left: 1px solid var(--white);
+}
+.today{
+    border-left: none;
+}
+
+.card{
+    width: calc(100% - 40px);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4pt;
+    border-radius: 4px;
+    border: 1px solid var(--borderGrey);
+}
+.lineItem{
+    width: 100%;
+    display: flex;
+    height: 5rem;
+}
+
+.cardLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+.cardThumbnail{
+    height: 100%;
+    width: 7rem;
+    /* background-color: lightslategray; */
+}
+.cardThumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: mediumaquamarine; */
+    flex-grow: 1;
+    padding: .25rem;
+}
+.cardRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .25rem;
+}
+.cardRightIcons{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.cardRightIcons i{
+    font-size: 1.5rem;
+}
+
+.rating{
+    color: var(--mainGreen);
+}
+
+.cardAlt{
+    height: 100%;
+    width: 4%;
+    flex-grow: 1;
+    background-color: var(--darkest);
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: darkgreen; */
+}
+
+.priceInfo{
+    display: flex;
+    width: 80%;
+    border-bottom: 2pt solid grey;
+    padding: .5rem 0;
+}
+
+.notesArea{
+    width: 80%;
+    padding: .5rem 0;
+}
+
+.notesArea textarea{
+    resize: none;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    margin: .5rem 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+footer nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* Styling Essentials */
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    padding: .5rem 1rem 1rem 1rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 700;
+}
+h5{
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--mainGreen);
+}
+
+:focus{
+    border-radius: 0;
+    outline: 1px solid var(--borderGrey);
+}
+
+:active{
+
+}
