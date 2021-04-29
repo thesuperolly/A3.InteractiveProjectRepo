@@ -10,6 +10,9 @@
     <title>Domain Inspections</title>
 </head>
 <body>
+
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <script src="asset/js/script.js"></script>
     
     <!-- App Container -->
     <div class="container">
@@ -29,7 +32,7 @@
 
         <!-- Main app content -->
         <main>
-            <h1>Inspections</h1>
+            <h2>Today's Inspections</h2>
 
             <!-- A prototype of a line item. -->
             <div class="card">
@@ -52,20 +55,14 @@
                         <div class="cardRight">
                             <h5>12:00 - 12:15</h5>
                             <div class="cardRightIcons">
-                                <div><i class="fas fa-info-circle"></i></div>
+                                <div class="showInfo"><i class=" infoButton fas fa-info-circle"></i></div>
+                                <!-- <div><i class="fas fa-times-circle"></i></div> -->
                                 <div><i class="fas fa-map-marker-alt"></i></div>
-                                <div><i class="fas fa-times-circle"></i></div>
+                                <div><i class="far fa-trash-alt"></i></div>
                             </div>
                         </div>
-
-
-                    </div>
-                    <!-- This is the card delete section -->
-                    <div class="cardAlt">
-                        <div></div>
-                    </div>  
+                    </div> 
                 </div>
-
                 <!-- more info appears in this div -->
                 <div class="info">
                     <div class="priceInfo">
@@ -76,8 +73,53 @@
                     </div>
                     <div class="notesArea">
                         <h4>Notes:</h4>
-                        <textarea name=""></textarea>
+                        <textarea name="notes"></textarea>
+                    </div>
+                </div>
 
+            </div>
+            <!-- Demo card end -->
+
+            <!-- A prototype of a line item. -->
+            <div class="card">
+                <!-- Initial visible card areas -->
+                <div class="lineItem">
+                    <div class="cardLeft">
+                        <div class="cardThumbnail">
+                            <img src="https://via.placeholder.com/112x80?text=Inspections" alt="">
+                        </div>
+                        <div class="cardCenter">
+                            <h4>Address info</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="cardRight">
+                            <h5>12:00 - 12:15</h5>
+                            <div class="cardRightIcons">
+                                <div class="showInfo"><i class="fas fa-info-circle"></i></div>
+                                <!-- <div><i class="fas fa-times-circle"></i></div> -->
+                                <div><i class="fas fa-map-marker-alt"></i></div>
+                                <div><i class="far fa-trash-alt"></i></div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- more info appears in this div -->
+                <div class="info">
+                    <div class="priceInfo">
+                        <h2>
+                            <span class="priceType">$</span>
+                            <span class="price">...</span>
+                        </h2>
+                    </div>
+                    <div class="notesArea">
+                        <h4>Notes:</h4>
+                        <textarea name="notes"></textarea>
                     </div>
                 </div>
 
@@ -85,45 +127,15 @@
             <!-- Demo card end -->
 
 
-            <!-- Old sample card -->
-            <div class="card">
-                <div class="cardLeft">
-                    <div class="cardThumbnail">
-                        <img src="https://via.placeholder.com/112x80?text=Inspections" alt="">
-                    </div>
-                    <div class="cardCenter">
-                        <h4>Address info</h4>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="cardRight">
-                        <h5>12:00 - 12:15</h5>
-                        <div class="cardRightIcons">
-                            <div><i class="fas fa-info-circle"></i></div>
-                            <div><i class="fas fa-directions"></i></div>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="cardAlt">
-                    <div></div>
-                </div>
-            </div>
         </main>
 
     <!-- footer and promay nav info -->
         <footer>
             <nav>
                 <ul>
-                    <li>My Ratings</li>
-                    <li>Inspections</li>
-                    <li>Key Dates</li>
+                    <li><button>My Ratings</button></li>
+                    <li><button>Inspections</button></li>
+                    <li><button>Key Dates</button></li>
                 </ul>
             </nav>
         </footer>

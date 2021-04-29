@@ -1,0 +1,1363 @@
+[
+    {
+      "type": "Project",
+      "listings": [
+        {
+          "listingType": "NewHomes",
+          "id": 2016401251,
+          "projectId": 3414,
+          "advertiser": {
+            "type": "Agency",
+            "id": 26580,
+            "name": "Independent Property Group",
+            "logoUrl": "https://images.domain.com.au/img/Agencys/26580/logo_26580.jpeg",
+            "preferredColourHex": "#4D4E57",
+            "bannerUrl": "https://images.domain.com.au/img/Agencys/26580/banner_26580.jpeg",
+            "contacts": [
+              {
+                "name": "Independent Projects"
+              }
+            ]
+          },
+          "priceDetails": {
+            "displayPrice": "Offers Above $369,900"
+          },
+          "media": [
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_7_1_191013_080708-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_8_1_191013_080708-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_7_1_191025_065252-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_9_1_191025_065252-w4002-h2000"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_2_1_191025_065252-w1920-h1080"
+            }
+          ],
+          "propertyDetails": {
+            "state": "ACT",
+            "features": [
+              "AirConditioning",
+              "CableOrSatellite",
+              "Floorboards",
+              "SecureParking",
+              "Gym",
+              "Intercom",
+              "Heating",
+              "Dishwasher",
+              "DoubleGlazedWindows"
+            ],
+            "propertyType": "NewApartments",
+            "allPropertyTypes": [
+              "NewApartments"
+            ],
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "carspaces": 1,
+            "unitNumber": "",
+            "streetNumber": "",
+            "street": "DKSN",
+            "area": "Inner North",
+            "region": "Canberra",
+            "suburb": "DICKSON",
+            "postcode": "2602",
+            "displayableAddress": "DKSN, Dickson",
+            "latitude": -35.2525,
+            "longitude": 149.139725
+          },
+          "headline": "LIVE WHERE IT ALL HAPPENS",
+          "summaryDescription": "<b></b><br />SELLING FAST, DON'T MISS OUT!\n\n\n  Be a part of Canberra's second CBD in a DKSN 1 bedroom, 1 bathroom apartment. Amidst the energetic buzz of this new CBD, these brilliantly designed apartments give you front row seats to all the action, wh...",
+          "hasFloorplan": false,
+          "hasVideo": false,
+          "labels": [
+            "New homes"
+          ],
+          "inspectionSchedule": {
+            "byAppointment": true,
+            "recurring": false,
+            "times": []
+          },
+          "listingSlug": "dksn-dickson-act-2602-2016401251"
+        },
+        {
+          "listingType": "NewHomes",
+          "id": 2016401252,
+          "projectId": 3414,
+          "advertiser": {
+            "type": "Agency",
+            "id": 26580,
+            "name": "Independent Property Group",
+            "logoUrl": "https://images.domain.com.au/img/Agencys/26580/logo_26580.jpeg",
+            "preferredColourHex": "#4D4E57",
+            "bannerUrl": "https://images.domain.com.au/img/Agencys/26580/banner_26580.jpeg",
+            "contacts": [
+              {
+                "name": "Independent Projects"
+              }
+            ]
+          },
+          "priceDetails": {
+            "displayPrice": "Offers Above $529,900"
+          },
+          "media": [
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_9_1_191025_065252-w4002-h2000"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_8_1_191025_065252-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_7_1_191025_065252-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_2_1_191025_065252-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_3_1_191025_065252-w1920-h1080"
+            }
+          ],
+          "propertyDetails": {
+            "state": "ACT",
+            "features": [
+              "AirConditioning",
+              "CableOrSatellite",
+              "Floorboards",
+              "SecureParking",
+              "Gym",
+              "Intercom",
+              "Heating",
+              "Dishwasher",
+              "DoubleGlazedWindows"
+            ],
+            "propertyType": "NewApartments",
+            "allPropertyTypes": [
+              "NewApartments"
+            ],
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "carspaces": 1,
+            "unitNumber": "",
+            "streetNumber": "",
+            "street": "DKSN",
+            "area": "Inner North",
+            "region": "Canberra",
+            "suburb": "DICKSON",
+            "postcode": "2602",
+            "displayableAddress": "DKSN, Dickson",
+            "latitude": -35.2502136,
+            "longitude": 149.134552
+          },
+          "headline": "SELLING QUICKLY, DON'T MISS OUT!",
+          "summaryDescription": "<b></b><br />BE A PART OF CANBERRA'S SECOND CBD AT DICKSON\n\n This 2 bedroom, 2 bathroom apartment is amidst the energetic buzz of Canberra's newest CBD, these brilliantly designed apartments give you front row seats to all the action, whilst providing ...",
+          "hasFloorplan": false,
+          "hasVideo": false,
+          "labels": [
+            "New homes"
+          ],
+          "inspectionSchedule": {
+            "byAppointment": true,
+            "recurring": false,
+            "times": []
+          },
+          "listingSlug": "dksn-dickson-act-2602-2016401252"
+        },
+        {
+          "listingType": "NewHomes",
+          "id": 2016401253,
+          "projectId": 3414,
+          "advertiser": {
+            "type": "Agency",
+            "id": 26580,
+            "name": "Independent Property Group",
+            "logoUrl": "https://images.domain.com.au/img/Agencys/26580/logo_26580.jpeg",
+            "preferredColourHex": "#4D4E57",
+            "bannerUrl": "https://images.domain.com.au/img/Agencys/26580/banner_26580.jpeg",
+            "contacts": [
+              {
+                "name": "Independent Projects"
+              }
+            ]
+          },
+          "priceDetails": {
+            "price": 599900,
+            "priceFrom": 599900,
+            "priceTo": 599900,
+            "displayPrice": "$599,900"
+          },
+          "media": [
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753731_1_1_191014_032355-w1190-h843"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_7_1_191025_065252-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_8_1_191025_065252-w1920-h1080"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_9_1_191025_065252-w4002-h2000"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015753709_2_1_191025_065252-w1920-h1080"
+            }
+          ],
+          "propertyDetails": {
+            "state": "ACT",
+            "features": [
+              "AirConditioning",
+              "CableOrSatellite",
+              "Floorboards",
+              "SecureParking",
+              "Gym",
+              "Intercom",
+              "Heating",
+              "Dishwasher",
+              "DoubleGlazedWindows"
+            ],
+            "propertyType": "NewApartments",
+            "allPropertyTypes": [
+              "NewApartments"
+            ],
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "carspaces": 1,
+            "unitNumber": "",
+            "streetNumber": "",
+            "street": "DKSN",
+            "area": "Inner North",
+            "region": "Canberra",
+            "suburb": "DICKSON",
+            "postcode": "2602",
+            "displayableAddress": "DKSN, Dickson",
+            "latitude": -35.2502136,
+            "longitude": 149.134552
+          },
+          "headline": "ONLY ONE AVAILABLE - DON'T MISS OUT!",
+          "summaryDescription": "<b></b><br />ONLY 1 AVAILABLE - DON'T MISS OUT!\n \n Make this 2 bedroom, 2 bathroom, 2 story apartment your new home! Located in the heart of Canberra's most exciting new precinct: DKSN in Dickson.\n \n Enjoy the energetic buzz of this new CBD, in your br...",
+          "hasFloorplan": false,
+          "hasVideo": false,
+          "labels": [
+            "New homes"
+          ],
+          "inspectionSchedule": {
+            "byAppointment": true,
+            "recurring": false,
+            "times": []
+          },
+          "listingSlug": "dksn-dickson-act-2602-2016401253"
+        },
+        {
+          "listingType": "NewHomes",
+          "id": 2016401254,
+          "projectId": 3414,
+          "advertiser": {
+            "type": "Agency",
+            "id": 26580,
+            "name": "Independent Property Group",
+            "logoUrl": "https://images.domain.com.au/img/Agencys/26580/logo_26580.jpeg",
+            "preferredColourHex": "#4D4E57",
+            "bannerUrl": "https://images.domain.com.au/img/Agencys/26580/banner_26580.jpeg",
+            "contacts": [
+              {
+                "name": "Independent Projects"
+              }
+            ]
+          },
+          "priceDetails": {
+            "price": 564900,
+            "priceFrom": 564900,
+            "priceTo": 564900,
+            "displayPrice": "$564,900"
+          },
+          "media": [
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2014700385_6_1_191025_032259-w1200-h818"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2014700390_8_1_191025_032258-w1200-h900"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2014700390_4_1_191025_032258-w1200-h441"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2014700383_5_1_190131_104101-w1600-h1200"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2014700383_6_1_190213_011057-w1600-h1200"
+            }
+          ],
+          "propertyDetails": {
+            "state": "ACT",
+            "features": [
+              "AirConditioning",
+              "CableOrSatellite",
+              "Ensuite",
+              "Floorboards",
+              "SecureParking",
+              "Gym",
+              "Intercom",
+              "Heating",
+              "Dishwasher",
+              "DoubleGlazedWindows"
+            ],
+            "propertyType": "NewApartments",
+            "allPropertyTypes": [
+              "NewApartments"
+            ],
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "carspaces": 1,
+            "unitNumber": "",
+            "streetNumber": "",
+            "street": "DKSN",
+            "area": "Inner North",
+            "region": "Canberra",
+            "suburb": "DICKSON",
+            "postcode": "2602",
+            "displayableAddress": "DKSN, Dickson",
+            "latitude": -35.2502136,
+            "longitude": 149.134552
+          },
+          "headline": "LAST ONE!",
+          "summaryDescription": "<b></b><br />LIVE WHERE IT ALL HAPPENS!\n\nNEARLY COMPLETE -  MOVE IN SOON!\n\nLet the world revolve around you in Canberra's most exciting new precinct: DKSN in Dickson.\n\nIncorporating restaurants, cafes, bars, boutiques, a gym, supermarket, state-of-the-...",
+          "hasFloorplan": false,
+          "hasVideo": false,
+          "labels": [
+            "New homes"
+          ],
+          "inspectionSchedule": {
+            "byAppointment": true,
+            "recurring": false,
+            "times": []
+          },
+          "listingSlug": "dksn-dickson-act-2602-2016401254"
+        }
+      ],
+      "project": {
+        "state": "ACT",
+        "id": 3414,
+        "name": "DKSN",
+        "bannerUrl": "https://images.domain.com.au/img/Agencys/devproject/banner_3414_200813_055135",
+        "preferredColorHex": "",
+        "logoUrl": "https://images.domain.com.au/img/Agencys/devproject/logo_3414_200813_055135",
+        "labels": [
+          "New"
+        ],
+        "displayableAddress": "DICKSON, ACT 2602",
+        "suburb": "DICKSON",
+        "features": [
+          ""
+        ],
+        "media": [],
+        "projectSlug": "project/3414/dksn-dickson-act"
+      }
+    },
+    {
+      "type": "Project",
+      "listings": [
+        {
+          "listingType": "NewHomes",
+          "id": 2015841572,
+          "projectId": 3084,
+          "advertiser": {
+            "type": "Agency",
+            "id": 29061,
+            "name": "Art Group",
+            "logoUrl": "https://images.domain.com.au/img/Agencys/29061/logo_29061.jpeg",
+            "preferredColourHex": "#DDDDDD",
+            "bannerUrl": "https://images.domain.com.au/img/Agencys/29061/banner_29061.jpeg",
+            "contacts": [
+              {
+                "name": "Josh Morrissey",
+                "photoUrl": "https://images.domain.com.au/img/29061/contact_1570236.jpeg?mod=210427-155516"
+              },
+              {
+                "name": "Tom Wiggins",
+                "photoUrl": "https://images.domain.com.au/img/29061/contact_1781849.jpeg?mod=210427-155516"
+              }
+            ]
+          },
+          "priceDetails": {
+            "displayPrice": "Offers Above $539,400"
+          },
+          "media": [
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841572_1_1_200723_014253-w1440-h960"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841572_23_1_200901_062457-w2000-h1000"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841874_1_1_200901_063911-w2500-h898"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841857_2_1_200525_043959-w3000-h1866"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841855_5_pi_191120_043700-w2500-h1250"
+            }
+          ],
+          "propertyDetails": {
+            "state": "ACT",
+            "features": [
+              "AirConditioning",
+              "Gas",
+              "SecureParking",
+              "SwimmingPool",
+              "Furnished",
+              "Dishwasher",
+              "DoubleGlazedWindows"
+            ],
+            "propertyType": "NewApartments",
+            "allPropertyTypes": [
+              "NewApartments"
+            ],
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "carspaces": 1,
+            "unitNumber": "",
+            "streetNumber": "",
+            "street": "",
+            "area": "Inner North",
+            "region": "Canberra",
+            "suburb": "DICKSON",
+            "postcode": "2602",
+            "displayableAddress": "Dickson",
+            "latitude": -35.2525,
+            "longitude": 149.139725
+          },
+          "headline": "Two - Bedroom - Less Than 5 Remaining",
+          "summaryDescription": "<b></b><br />The need to know details:\nEvery buyer will receive the Art Group $25,000 home builder grant.\n$0 stamp duty available up to $500k\nGovernment $11,400 stamp duty rebate available up to $750k\nArchitect: COX Architects\nBuilder: CORE Building Gr...",
+          "hasFloorplan": false,
+          "hasVideo": false,
+          "labels": [
+            "New homes"
+          ],
+          "inspectionSchedule": {
+            "byAppointment": false,
+            "recurring": false,
+            "times": [
+              {
+                "openingTime": "2021-04-28T17:30:00",
+                "closingTime": "2021-04-28T18:00:00"
+              },
+              {
+                "openingTime": "2021-05-01T10:30:00",
+                "closingTime": "2021-05-01T12:00:00"
+              },
+              {
+                "openingTime": "2021-05-02T10:30:00",
+                "closingTime": "2021-05-02T12:00:00"
+              }
+            ]
+          },
+          "listingSlug": "dickson-act-2602-2015841572"
+        },
+        {
+          "listingType": "NewHomes",
+          "id": 2015841569,
+          "projectId": 3084,
+          "advertiser": {
+            "type": "Agency",
+            "id": 29061,
+            "name": "Art Group",
+            "logoUrl": "https://images.domain.com.au/img/Agencys/29061/logo_29061.jpeg",
+            "preferredColourHex": "#DDDDDD",
+            "bannerUrl": "https://images.domain.com.au/img/Agencys/29061/banner_29061.jpeg",
+            "contacts": [
+              {
+                "name": "Josh Morrissey",
+                "photoUrl": "https://images.domain.com.au/img/29061/contact_1570236.jpeg?mod=210427-155516"
+              },
+              {
+                "name": "Tom Wiggins",
+                "photoUrl": "https://images.domain.com.au/img/29061/contact_1781849.jpeg?mod=210427-155516"
+              }
+            ]
+          },
+          "priceDetails": {
+            "displayPrice": "Offers Above $554,600"
+          },
+          "media": [
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841874_1_1_200901_063911-w2500-h898"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841569_1_1_200723_014251-w1440-h960"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841857_2_1_200525_043959-w3000-h1866"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841855_5_pi_191120_043700-w2500-h1250"
+            },
+            {
+              "category": "Image",
+              "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841855_6_1_191104_011106-w2500-h1250"
+            }
+          ],
+          "propertyDetails": {
+            "state": "ACT",
+            "features": [
+              "AirConditioning",
+              "Floorboards",
+              "Gas",
+              "SecureParking",
+              "SwimmingPool",
+              "Furnished",
+              "Dishwasher",
+              "DoubleGlazedWindows"
+            ],
+            "propertyType": "NewApartments",
+            "allPropertyTypes": [
+              "NewApartments"
+            ],
+            "bathrooms": 1,
+            "bedrooms": 2,
+            "carspaces": 1,
+            "unitNumber": "",
+            "streetNumber": "",
+            "street": "",
+            "area": "Inner North",
+            "region": "Canberra",
+            "suburb": "DICKSON",
+            "postcode": "2602",
+            "displayableAddress": "Dickson",
+            "latitude": -35.2525,
+            "longitude": 149.139725
+          },
+          "headline": "Two - Bedroom - Less Than 2 Remaining",
+          "summaryDescription": "<b></b><br />The need to know details:\nEvery buyer will receive the Art Group $25,000 home builder grant.\n $0 stamp duty available up to $500k \n Government $11,400 stamp duty rebate available up to $750k\n Architect: COX Architects \n Builder: CORE Build...",
+          "hasFloorplan": false,
+          "hasVideo": false,
+          "labels": [
+            "New homes"
+          ],
+          "inspectionSchedule": {
+            "byAppointment": false,
+            "recurring": false,
+            "times": [
+              {
+                "openingTime": "2021-04-28T17:30:00",
+                "closingTime": "2021-04-28T18:00:00"
+              },
+              {
+                "openingTime": "2021-05-01T10:30:00",
+                "closingTime": "2021-05-01T12:00:00"
+              },
+              {
+                "openingTime": "2021-05-02T10:30:00",
+                "closingTime": "2021-05-02T12:00:00"
+              }
+            ]
+          },
+          "listingSlug": "dickson-act-2602-2015841569"
+        }
+      ],
+      "project": {
+        "state": "ACT",
+        "id": 3084,
+        "name": "Mulberry",
+        "bannerUrl": "https://images.domain.com.au/img/Agencys/devproject/banner_3084_210302_120620",
+        "preferredColorHex": "#2a1232",
+        "logoUrl": "https://images.domain.com.au/img/Agencys/devproject/logo_3084_210302_120620",
+        "labels": [
+          "New"
+        ],
+        "displayableAddress": "55 DOORING, DICKSON, ACT 2602",
+        "suburb": "DICKSON",
+        "features": [
+          ""
+        ],
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2015841572_1_1_200723_014253-w1440-h960"
+          }
+        ],
+        "projectSlug": "project/3084/mulberry-dickson-act"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016953655,
+        "advertiser": {
+          "type": "Agency",
+          "id": 28314,
+          "name": "home.byholly",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/28314/logo_28314.png",
+          "preferredColourHex": "#DDDDDD",
+          "contacts": [
+            {
+              "name": "Jenny Michael And Mark McReynolds",
+              "photoUrl": "https://images.domain.com.au/img/28314/contact_1641523.jpeg?mod=210428-131040"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "Auction 1:00pm Saturday 15 May 2021"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953655_1_1_210421_105256-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953655_2_1_210421_105256-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953655_3_1_210421_105256-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953655_4_1_210421_105256-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953655_5_1_210421_105256-w1600-h1067"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "BuiltInWardrobes",
+            "Gas",
+            "SecureParking",
+            "NorthFacing",
+            "Heating",
+            "Dishwasher",
+            "Study",
+            "DoubleGlazedWindows",
+            "SolarPanels"
+          ],
+          "propertyType": "House",
+          "allPropertyTypes": [
+            "House"
+          ],
+          "bathrooms": 2,
+          "bedrooms": 5,
+          "carspaces": 2,
+          "unitNumber": "",
+          "streetNumber": "23",
+          "street": "Durack Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "DOWNER",
+          "postcode": "2602",
+          "displayableAddress": "23 Durack Street, Downer",
+          "latitude": -35.24185,
+          "longitude": 149.141342
+        },
+        "headline": "durack.delight",
+        "summaryDescription": "<b></b><br />Beautiful family home set in one of Downers most glorious treelined streets!\n \nSet in stunning, sought after, family friendly Durack Street where the tall leafy trees form a gorgeous canopy from one end to the other, is this impeccable hom...",
+        "hasFloorplan": true,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "auctionSchedule": {
+          "time": "2021-05-15T13:00:00",
+          "auctionLocation": "On Site"
+        },
+        "inspectionSchedule": {
+          "byAppointment": true,
+          "recurring": false,
+          "times": []
+        },
+        "listingSlug": "23-durack-street-downer-act-2602-2016953655"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016967289,
+        "advertiser": {
+          "type": "Agency",
+          "id": 21086,
+          "name": "Luton Properties Gungahlin",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/21086/logo_21086.jpeg",
+          "preferredColourHex": "#4D85C5",
+          "bannerUrl": "https://images.domain.com.au/img/Agencys/21086/banner_21086.jpeg",
+          "contacts": [
+            {
+              "name": "Nick Paine",
+              "photoUrl": "https://images.domain.com.au/img/21086/contact_1133315.jpeg?mod=210428-135630"
+            },
+            {
+              "name": "Peter White",
+              "photoUrl": "https://images.domain.com.au/img/21086/contact_1722642.jpeg?mod=210428-135630"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "Auction"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016967289_1_1_210428_035630-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016967289_2_1_210428_035630-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016967289_3_1_210428_035630-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016967289_4_1_210428_035630-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016967289_5_1_210428_035630-w1920-h1280"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "BuiltInWardrobes",
+            "Gas",
+            "SecureParking",
+            "Heating"
+          ],
+          "propertyType": "House",
+          "allPropertyTypes": [
+            "House"
+          ],
+          "bathrooms": 2,
+          "bedrooms": 3,
+          "carspaces": 6,
+          "unitNumber": "",
+          "streetNumber": "7",
+          "street": "Manning Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "WATSON",
+          "postcode": "2602",
+          "displayableAddress": "7 Manning Street, Watson",
+          "latitude": -35.23412,
+          "longitude": 149.148514
+        },
+        "headline": "7 Manning Street, Watson",
+        "summaryDescription": "<b></b><br />A quiet and leafy street is what you will see when you approach 7 Manning Street, Watson. Located in one of north Canberra's most sought after suburbs, this home is sure to spark interest.\n\nInside this fantastic family home, you will find ...",
+        "hasFloorplan": true,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "auctionSchedule": {
+          "time": "2021-05-22T13:00:00",
+          "auctionLocation": "On Site"
+        },
+        "inspectionSchedule": {
+          "byAppointment": false,
+          "recurring": false,
+          "times": [
+            {
+              "openingTime": "2021-05-01T10:00:00",
+              "closingTime": "2021-05-01T10:45:00"
+            },
+            {
+              "openingTime": "2021-05-05T17:00:00",
+              "closingTime": "2021-05-05T17:30:00"
+            }
+          ]
+        },
+        "listingSlug": "7-manning-street-watson-act-2602-2016967289"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016965714,
+        "advertiser": {
+          "type": "Agency",
+          "id": 21086,
+          "name": "Luton Properties Gungahlin",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/21086/logo_21086.jpeg",
+          "preferredColourHex": "#4D85C5",
+          "bannerUrl": "https://images.domain.com.au/img/Agencys/21086/banner_21086.jpeg",
+          "contacts": [
+            {
+              "name": "Luke McAuliffe",
+              "photoUrl": "https://images.domain.com.au/img/21086/contact_1784965.jpeg?mod=210428-092142"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "Auction"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965714_1_1_210427_112143-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965714_2_1_210427_112143-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965714_3_1_210427_112143-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965714_4_1_210427_112143-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965714_5_1_210427_112143-w1920-h1280"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "BuiltInWardrobes",
+            "Gas",
+            "SecureParking",
+            "SwimmingPool",
+            "Furnished",
+            "Bath",
+            "Heating",
+            "Dishwasher",
+            "Shed"
+          ],
+          "propertyType": "House",
+          "allPropertyTypes": [
+            "House"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 3,
+          "carspaces": 2,
+          "unitNumber": "",
+          "streetNumber": "29",
+          "street": "Archer Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "DICKSON",
+          "postcode": "2602",
+          "displayableAddress": "29 Archer Street, Dickson",
+          "latitude": -35.2536736,
+          "longitude": 149.140976,
+          "buildingArea": 698
+        },
+        "headline": "Your new convenient lifestyle awaits!",
+        "summaryDescription": "<b></b><br />In a prime location, a peaceful street only metres from all the attractions of the vibrant Dickson hub, this inviting home is set amidst attractive gardens, on a block of approximately 698 m2, and is as appealing inside as it is from first...",
+        "hasFloorplan": false,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "auctionSchedule": {
+          "time": "2021-05-15T14:00:00",
+          "auctionLocation": "On Site"
+        },
+        "inspectionSchedule": {
+          "byAppointment": false,
+          "recurring": false,
+          "times": [
+            {
+              "openingTime": "2021-05-01T11:00:00",
+              "closingTime": "2021-05-01T11:40:00"
+            }
+          ]
+        },
+        "listingSlug": "29-archer-street-dickson-act-2602-2016965714"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016955104,
+        "advertiser": {
+          "type": "Agency",
+          "id": 20010,
+          "name": "Blackshaw Manuka",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/20010/logo_20010.jpeg",
+          "preferredColourHex": "#212f60",
+          "bannerUrl": "https://images.domain.com.au/img/Agencys/20010/banner_20010.jpeg",
+          "contacts": [
+            {
+              "name": "Christine Shaw",
+              "photoUrl": "https://images.domain.com.au/img/20010/contact_1788969.jpeg?mod=210427-145759"
+            }
+          ]
+        },
+        "priceDetails": {
+          "price": 710000,
+          "priceFrom": 710000,
+          "priceTo": 710000,
+          "displayPrice": "$710,000+"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955104_1_1_210422_034512-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955104_2_1_210422_034512-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955104_3_1_210422_034512-w1920-h1280"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "AirConditioning",
+            "BuiltInWardrobes",
+            "Ensuite",
+            "Gas",
+            "SecureParking",
+            "GroundFloor",
+            "Heating"
+          ],
+          "propertyType": "Townhouse",
+          "allPropertyTypes": [
+            "Townhouse"
+          ],
+          "bathrooms": 2,
+          "bedrooms": 3,
+          "carspaces": 2,
+          "unitNumber": "",
+          "streetNumber": "",
+          "street": "",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "WATSON",
+          "postcode": "2602",
+          "displayableAddress": "Watson",
+          "latitude": -35.2383347,
+          "longitude": 149.153336
+        },
+        "headline": "FUTURE HOME IN 2-3 YEARS OR INVESTMENT?",
+        "summaryDescription": "<b></b><br />Note:  Contracts cannot exchange until July 20/21. This is a FY 21/22 sale.\n\nWith this two-storey, three-bedroom ensuite townhouse, the DHA option is already exercised, which means you could find this makes the perfect purchase for your fu...",
+        "hasFloorplan": true,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "inspectionSchedule": {
+          "byAppointment": true,
+          "recurring": false,
+          "times": []
+        },
+        "listingSlug": "watson-act-2602-2016955104"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016953656,
+        "advertiser": {
+          "type": "Agency",
+          "id": 28314,
+          "name": "home.byholly",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/28314/logo_28314.png",
+          "preferredColourHex": "#DDDDDD",
+          "contacts": [
+            {
+              "name": "Jenny Michael And Mark McReynolds",
+              "photoUrl": "https://images.domain.com.au/img/28314/contact_1641523.jpeg?mod=210428-131040"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "Auction 10:30am Saturday 15 May 2021"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953656_1_1_210421_105256-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953656_2_1_210421_105256-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953656_3_1_210421_105256-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953656_4_1_210421_105256-w1920-h1280"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016953656_5_1_210421_105256-w1920-h1280"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "BuiltInWardrobes",
+            "Ensuite",
+            "Floorboards",
+            "SecureParking",
+            "Bath",
+            "Heating"
+          ],
+          "propertyType": "Townhouse",
+          "allPropertyTypes": [
+            "Townhouse"
+          ],
+          "bathrooms": 2,
+          "bedrooms": 3,
+          "carspaces": 2,
+          "unitNumber": "123",
+          "streetNumber": "395",
+          "street": "Antill Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "WATSON",
+          "postcode": "2602",
+          "displayableAddress": "123/395 Antill Street, Watson",
+          "latitude": -35.2274055,
+          "longitude": 149.166153
+        },
+        "headline": "solstice.serenity",
+        "summaryDescription": "<b></b><br />Perfectly positioned directly opposite open parkland and leafy trees!\n\nWith your backyard right outside your front door this gem of a home enjoys one of the finest positions in the sought 'Solstice' complex and is ideal for those who like ...",
+        "hasFloorplan": true,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "auctionSchedule": {
+          "time": "2021-05-15T10:30:00",
+          "auctionLocation": "On Site"
+        },
+        "inspectionSchedule": {
+          "byAppointment": false,
+          "recurring": false,
+          "times": [
+            {
+              "openingTime": "2021-05-01T13:45:00",
+              "closingTime": "2021-05-01T14:15:00"
+            },
+            {
+              "openingTime": "2021-05-05T17:00:00",
+              "closingTime": "2021-05-05T17:30:00"
+            }
+          ]
+        },
+        "listingSlug": "123-395-antill-street-watson-act-2602-2016953656"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016955100,
+        "advertiser": {
+          "type": "Agency",
+          "id": 32650,
+          "name": "Badenoch Real Estate Sales",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/32650/logo_32650.jpeg",
+          "preferredColourHex": "#fff",
+          "bannerUrl": "https://images.domain.com.au/img/Agencys/32650/banner_32650.jpeg",
+          "contacts": [
+            {
+              "name": "Symon Badenoch",
+              "photoUrl": "https://images.domain.com.au/img/32650/contact_1639474.jpeg?mod=210427-145507"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "$599,000+"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955100_1_1_210422_034425-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955100_2_1_210422_034425-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955100_3_1_210422_034425-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955100_4_1_210422_034425-w1600-h1067"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955100_5_1_210422_034425-w1600-h1067"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "Gas",
+            "Study"
+          ],
+          "propertyType": "Townhouse",
+          "allPropertyTypes": [
+            "Townhouse"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 3,
+          "carspaces": 1,
+          "unitNumber": "30",
+          "streetNumber": "124",
+          "street": "De Burgh Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "LYNEHAM",
+          "postcode": "2602",
+          "displayableAddress": "30/124 De Burgh Street, Lyneham",
+          "latitude": -35.2537842,
+          "longitude": 149.1322
+        },
+        "headline": "End position with leafy outlook",
+        "summaryDescription": "<b></b><br />***FINAL OFFERS BY 2PM MONDAY 3RD MAY - Please contact Symon if you would like to discuss***\n\n**Although restrictions have lifted please remember COVID-19 guideline rules. It is requested that attendees sign in using Check in CBR app with ...",
+        "hasFloorplan": true,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "inspectionSchedule": {
+          "byAppointment": false,
+          "recurring": false,
+          "times": [
+            {
+              "openingTime": "2021-04-29T17:00:00",
+              "closingTime": "2021-04-29T17:30:00"
+            },
+            {
+              "openingTime": "2021-05-01T12:00:00",
+              "closingTime": "2021-05-01T12:30:00"
+            }
+          ]
+        },
+        "listingSlug": "30-124-de-burgh-street-lyneham-act-2602-2016955100"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016965572,
+        "advertiser": {
+          "type": "Agency",
+          "id": 30094,
+          "name": "Edge Mary de",
+          "logoUrl": "https://images.domain.com.au/img/Agencys/30094/logo_30094.jpeg",
+          "preferredColourHex": "#ffffff",
+          "bannerUrl": "https://images.domain.com.au/img/Agencys/30094/banner_30094.jpeg",
+          "contacts": [
+            {
+              "name": "Mary de Andrade"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "Offers Above $395,000"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965572_1_1_210427_090818-w3000-h2000"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965572_2_1_210427_090818-w3000-h2000"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965572_3_1_210427_090818-w3000-h2000"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965572_4_1_210427_090818-w3000-h2000"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016965572_5_1_210427_090818-w3000-h2000"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "Gas",
+            "Heating"
+          ],
+          "propertyType": "ApartmentUnitFlat",
+          "allPropertyTypes": [
+            "ApartmentUnitFlat"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "carspaces": 1,
+          "unitNumber": "9",
+          "streetNumber": "23",
+          "street": "Tay Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "WATSON",
+          "postcode": "2602",
+          "displayableAddress": "9/23 Tay Street, Watson",
+          "latitude": -35.2250633,
+          "longitude": 149.167633
+        },
+        "headline": "WELCOMING SENSE OF SPACE AND ABUNDANT NATURAL LIGHT",
+        "summaryDescription": "<b></b><br />This 2 bedroom apartment is sure to impress either an owner/occupier or a savvy investor. Currently rented for $450 per week on a month to month tenancy and offering a low maintenance lifestyle.\n  With a welcoming sense of space and abunda...",
+        "hasFloorplan": false,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "inspectionSchedule": {
+          "byAppointment": false,
+          "recurring": false,
+          "times": [
+            {
+              "openingTime": "2021-05-01T10:30:00",
+              "closingTime": "2021-05-01T11:30:00"
+            }
+          ]
+        },
+        "listingSlug": "9-23-tay-street-watson-act-2602-2016965572"
+      }
+    },
+    {
+      "type": "PropertyListing",
+      "listing": {
+        "listingType": "Sale",
+        "id": 2016955189,
+        "advertiser": {
+          "type": "Agency",
+          "id": 34091,
+          "name": "Whitcombe Property",
+          "preferredColourHex": "#DDDDDD",
+          "contacts": [
+            {
+              "name": "Rita Feng"
+            },
+            {
+              "name": "Sasha Trpkovski"
+            }
+          ]
+        },
+        "priceDetails": {
+          "displayPrice": "Offers Above $375,000"
+        },
+        "media": [
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955189_1_1_210422_035622-w1000-h667"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955189_2_1_210422_035622-w1000-h667"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955189_4_1_210422_035622-w1000-h667"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955189_5_1_210422_035622-w1000-h667"
+          },
+          {
+            "category": "Image",
+            "url": "https://bucket-api.domain.com.au/v1/bucket/image/2016955189_6_1_210422_035622-w1000-h667"
+          }
+        ],
+        "propertyDetails": {
+          "state": "ACT",
+          "features": [
+            "AirConditioning"
+          ],
+          "propertyType": "ApartmentUnitFlat",
+          "allPropertyTypes": [
+            "ApartmentUnitFlat"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "carspaces": 1,
+          "unitNumber": "3",
+          "streetNumber": "32",
+          "street": "Stockdale Street",
+          "area": "Inner North",
+          "region": "Canberra",
+          "suburb": "DICKSON",
+          "postcode": "2602",
+          "displayableAddress": "3/32 Stockdale Street, Dickson",
+          "latitude": -35.2574158,
+          "longitude": 149.137253,
+          "buildingArea": 91
+        },
+        "headline": "Ground floor apartment with HUGE court yard in the most desired Inner city location!",
+        "summaryDescription": "<b></b><br />Unlike noisy, crowded high density developments, this spacious apartment is in a private boutique apartment block with only 18 units in the whole complex.\n  The apartment is centrally located within a short 6 mins drive to civic. The light...",
+        "hasFloorplan": false,
+        "hasVideo": false,
+        "labels": [
+          "New"
+        ],
+        "inspectionSchedule": {
+          "byAppointment": false,
+          "recurring": false,
+          "times": [
+            {
+              "openingTime": "2021-04-29T17:00:00",
+              "closingTime": "2021-04-29T17:30:00"
+            },
+            {
+              "openingTime": "2021-05-01T14:30:00",
+              "closingTime": "2021-05-01T15:00:00"
+            }
+          ]
+        },
+        "listingSlug": "3-32-stockdale-street-dickson-act-2602-2016955189"
+      }
+    }
+  ]
