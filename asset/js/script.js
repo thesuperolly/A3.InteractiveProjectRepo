@@ -1,16 +1,15 @@
  
 
 
+    
+    navigator.geolocation.getCurrentPosition(function(position) {
+        var lat = position.coords.latitude;
+        var long = position.coords.longitude;
 
-
-
-
-
-
-
-
-
-
+        var coordinates = lat + ", " + long;
+        console.log(coordinates);
+        return coordinates 
+    });
 
 
 
@@ -24,11 +23,13 @@
     
 
     // JQuery Make a new card.
-    var newCard = function(listingID, address, image, priceGuide, inspectionTimes){
+    var newCard = function(listingID, address, image, priceGuide, inspectionTimes, getDirections){
         $("main").append('<div id="' +
          listingID + '" class="card"><div class="lineItem"><div class="cardLeft"><div class="cardThumbnail"><img src="' + 
          image + '" alt=""></div><div class="cardCenter"><h4>' + 
-         address + '</h4><div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div><div class="cardRight"><h5>'+ inspectionTimes +'</h5><div class="cardRightIcons"><div class="showInfo"><i class=" infoButton fas fa-info-circle"></i></div><div><i class="fas fa-map-marker-alt"></i></div><div><i class="far fa-trash-alt"></i></div></div></div></div></div><div class="info"><div class="priceInfo"><h4>' + 
+         address + '</h4><div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div><div class="cardRight"><h5>'+ 
+         inspectionTimes +'</h5><div class="cardRightIcons"><div class="showInfo"><i class=" infoButton fas fa-info"></i></div><div><a href="' + 
+         getDirections +'"><i class="fas fa-directions"></i></a></div><div><i class="far fa-trash-alt"></i></div></div></div></div></div><div class="info"><div class="priceInfo"><h4>' + 
          priceGuide + '</h4></div><div class="notesArea"><h4>Notes:</h4><textarea name="notes"></textarea></div></div></div>');
         }
 
@@ -81,6 +82,9 @@ $ ( document ).ready (function(){
                     console.log(data);
             // END OF COMMENT OUT SECTION===================================================
 
+
+
+
                     // loop through returned data
                     for (let index = 0; index < data.length; index++) {
 
@@ -92,7 +96,7 @@ $ ( document ).ready (function(){
 
                             // Get Litsing Attributes
                             // Address details
-                            var address = data[index].listing.propertyDetails.displayableAddress;
+                            var getAddress = data[index].listing.propertyDetails.displayableAddress;
 
                             // Image Thumnail
                             var getThumbnail = data[index].listing.media[0].url;
@@ -118,29 +122,39 @@ $ ( document ).ready (function(){
                                     // get closing time
                                     let closing = data[index].listing.inspectionSchedule.times[0].closingTime;
 
-                                    
+                                    // returne shortened inspection time
                                     return shortenInspection(opening) + " - " + shortenInspection(closing);
-
                                 } else {
-                                    
                                     return "Inspections Unavailable"
-                                }
-                            
-                                
+                                } 
                             };
 
+                            // Get listing lat and lon to get directions
+                            var getLatitudeAndLongitude = {
+                                lat: data[index].listing.propertyDetails.latitude,
+                                lon: data[index].listing.propertyDetails.longitude
+                            }
+                            var getDirections = 'https://www.google.com/maps/dir/?api=1&origin=&destination=' + getLatitudeAndLongitude.lat + ', ' + getLatitudeAndLongitude.lon
+
+
                             // attach new card with all created and retrieved data
-                            newCard(listingID, address, getThumbnail, getPrice, getInspection());
+                            newCard(listingID, getAddress, getThumbnail, getPrice, getInspection(), getDirections);
                         }
                     // end of loop    
                     }
 
 
             })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
 
+            // UNCOMMENT ON LIVE APP========================================================
+            // .catch((error) => {
+            //     console.error('Error:', error);
+            // });
+            //END OF UNCOMMENT SECTION======================================================
+
+
+
+// End of document ready
 });
 
     
@@ -157,25 +171,18 @@ $ ( document ).ready (function(){
     $(document).on('click', '.showInfo', function () {
         // log click
         console.log("showInfo Clicked")
-        // remove info and input cross
-
-        if($(this).has("i .fa-info-circle")){
-            console.log("Info Clicked")
-            $(this).find(".fa-info-circle").remove();
-
-            $(this).append('<i class="fas fa-times-circle"></i>');
-
-            $(this).closest(".card").children( ".info" ).css( "display", "flex" );
-        
-        }else{
-            $(this).has(".fa-times-circle").remove();
-
-            $(this).append('<i class="fas fa-info-circle"></i>');
-
-            $(this).closest(".card").children( ".info" ).css( "display", "none" );
-        }
-        
+        // toggle the info area open and closed
+        $(this).closest(".card").children( ".info" ).toggleClass("flexIt");
+        $(this).children( ".fa-info" ).toggleClass("selected");        
     });
+
+// GET DIRECTIONS
+    $(document).on('click', '.fa-directions', function() {
+        // check for click
+        console.log("directions clicked");
+
+
+    });    
 
 
     console.log("JQ good to go...")

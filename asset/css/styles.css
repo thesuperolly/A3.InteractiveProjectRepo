@@ -3,10 +3,12 @@
 
 :root{
     --mainGreen: #0ea800;
+    --shadowGreen: #085001;
     --white: #FFFFFF;
     --backGrey: #F2F5F7;
     --borderGrey: #D0D3D8;
     --darkest: #3E4659;
+    --danger: #a80000;
 }
 
 html{
@@ -32,7 +34,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-content: flex-start; */
 }
 
 /* Main Components */
@@ -62,7 +63,6 @@ footer{
     background-color: var(--mainGreen);
     min-height: 3rem;
     border-radius: 4px 4px 0 0;
-    border: 1px solid var(--borderGrey);
 }
 
 /* Main Contents Components */
@@ -149,6 +149,9 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+.flexIt{
+    display: flex;
+}
 
 .priceInfo{
     display: flex;
@@ -200,14 +203,17 @@ li button{
 h1{
     font-size: 2rem;
     font-weight: 700;
-    padding: .5rem 0 1rem 0;
+    margin: 5px 20px;
     width: calc(100% - 40px);
-    color: var(--mainGreen);
+    color: var(--white);
 }
 
 h2{
     font-size: 1.5rem;
     font-weight: 700;
+    width: calc(100% - 40px);
+    margin: .5rem;
+    text-align: left;
 }
 
 h4{
@@ -223,9 +229,18 @@ h5{
 i{
     cursor: pointer;
 }
+.selected{
+    color: var(--mainGreen);
+    text-shadow: 0px 2px 4px var(--shadowGreen);
+}
 
 i:hover{
+    transition: color 0.3s;
     color: var(--mainGreen);
+}
+
+.fa-trash-alt:hover{
+    color: var(--danger);
 }
 
 :focus{
