@@ -134,7 +134,7 @@ $ ( document ).ready (function(){
                                 lat: data[index].listing.propertyDetails.latitude,
                                 lon: data[index].listing.propertyDetails.longitude
                             }
-                            var getDirections = 'https://www.google.com/maps/dir/?api=1&origin=&destination=' + getLatitudeAndLongitude.lat + ', ' + getLatitudeAndLongitude.lon
+                            var getDirections = 'https://www.google.com/maps/dir/?api=1&origin=-35.2976105,149.0965294&destination=' + getLatitudeAndLongitude.lat + ', ' + getLatitudeAndLongitude.lon
 
 
                             // attach new card with all created and retrieved data
