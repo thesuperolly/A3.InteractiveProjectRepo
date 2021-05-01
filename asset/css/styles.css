@@ -28,7 +28,7 @@ body{
 }
 
 .container{
-    height: 812px;
+    height: 762px;
     width: 375px;
     background-color: var(--backGrey);
     display: flex;
