@@ -1,6 +1,3 @@
- 
-
-
     
     navigator.geolocation.getCurrentPosition(function(position) {
         var lat = position.coords.latitude;
@@ -10,11 +7,6 @@
         console.log(coordinates);
         return coordinates 
     });
-
-
-
-
-
 
 
     // URL to Call JSON API data.
@@ -27,11 +19,14 @@
         $("main").append('<div id="' +
          listingID + '" class="card"><div class="lineItem"><div class="cardLeft"><div class="cardThumbnail"><img src="' + 
          image + '" alt=""></div><div class="cardCenter"><h4>' + 
-         address + '</h4><div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div><div class="cardRight"><h5>'+ 
-         inspectionTimes +'</h5><div class="cardRightIcons"><div class="showInfo"><i class=" infoButton fas fa-info"></i></div><div><a href="' + 
+         address + '</h4><div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star altColor"></i><i class="fas fa-star altColor"></i></div></div><div class="cardRight"><h5>'+ 
+         inspectionTimes +'</h5><div class="cardRightIcons"><div class="showInfo"><i class="fas fa-clipboard-list"></i></div><div><a href="' + 
          getDirections +'"><i class="fas fa-directions"></i></a></div><div><i class="far fa-trash-alt"></i></div></div></div></div></div><div class="info"><div class="priceInfo"><h4>' + 
-         priceGuide + '</h4></div><div class="notesArea"><h4>Notes:</h4><textarea name="notes"></textarea></div></div></div>');
+         priceGuide + '</h4></div><div class="notesArea"><h4>My Notes:</h4><textarea placeholder="What lovely flooring" name="notes"></textarea></div></div></div>');
         }
+
+
+        
 
 // Run document script
 $ ( document ).ready (function(){
@@ -176,14 +171,29 @@ $ ( document ).ready (function(){
         $(this).children( ".fa-info" ).toggleClass("selected");        
     });
 
-// GET DIRECTIONS
-    $(document).on('click', '.fa-directions', function() {
-        // check for click
-        console.log("directions clicked");
 
-
-    });    
-
+    // Star rating stuff...=======================================
+    $('.ratings_stars').hover(
+        // Handles the mouseover
+        function() {
+            $(this).prevAll().andSelf().addClass('ratings_over');
+            $(this).nextAll().removeClass('ratings_vote'); 
+        },
+        // Handles the mouseout
+        function() {
+            $(this).prevAll().andSelf().removeClass('ratings_over');
+    
+        }
+    ).click(function() {
+       $('.ratings_stars').removeClass('chosen'); // Removes the chosen class from all of them
+       $(this).prevAll().andSelf().addClass('chosen').removeClass('ratings_over'); // Adds the chosen class to just the one you clicked
+    
+       var rating = $(this).data('rating');
+       //alert(rating);
+        // Get the rating from the chosen star
+       $('#rating').val(rating); // Set the value of the hidden rating form element
+    });
+    // Star rating stuff...=======================================
 
     console.log("JQ good to go...")
 // END OF 
