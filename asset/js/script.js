@@ -19,7 +19,7 @@
         $("main").append('<div id="' +
          listingID + '" class="card"><div class="lineItem"><div class="cardLeft"><div class="cardThumbnail"><img src="' + 
          image + '" alt=""></div><div class="cardCenter"><h4>' + 
-         address + '</h4><div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star altColor"></i><i class="fas fa-star altColor"></i></div></div><div class="cardRight"><h5>'+ 
+         address + '</h4><div class="rating"><i class="fas fa-star ratings_stars"></i><i class="fas fa-star ratings_stars"></i><i class="fas fa-star ratings_stars"></i><i class="fas fa-star altColor ratings_stars"></i><i class="fas fa-star altColor ratings_stars"></i></div></div><div class="cardRight"><h5>'+ 
          inspectionTimes +'</h5><div class="cardRightIcons"><div class="showInfo"><i class="fas fa-clipboard-list"></i></div><div><a href="' + 
          getDirections +'"><i class="fas fa-directions"></i></a></div><div><i class="far fa-trash-alt"></i></div></div></div></div></div><div class="info"><div class="priceInfo"><h4>' + 
          priceGuide + '</h4></div><div class="notesArea"><h4>My Notes:</h4><textarea placeholder="What lovely flooring" name="notes"></textarea></div></div></div>');
@@ -38,29 +38,29 @@ $ ( document ).ready (function(){
 
             // Call to Live API Data
             // UNCOMMENT WHEN READY=========================================================
-            // var apikey = 'key_1f6eb1dfbc88eab2d49d10f31f1c7c15';
+            var apikey = 'key_1f6eb1dfbc88eab2d49d10f31f1c7c15';
 
-            // var resiSearchUrl = 'https://api.domain.com.au/v1/listings/residential/_search';
+            var resiSearchUrl = 'https://api.domain.com.au/v1/listings/residential/_search';
 
-            // const data = {
-            //     "locations":
-            //         [{
-            //             "state": "ACT",
-            //             "postCode": "2602",
-            //         }]
-            // };
+            const data = {
+                "locations":
+                    [{
+                        "state": "ACT",
+                        "postCode": "2602",
+                    }]
+            };
 
-            // fetch(resiSearchUrl, {
-            //     method: 'POST', 
-            //     headers: {
-            //         'Content-Type': 'application/json',
-            //         'X-Api-Key': apikey
-            //     },
-            //     body: JSON.stringify(data),
-            // })
-            //     .then(response => response.json())
-            //     .then(data => {
-            //         console.log('Success:', data);
+            fetch(resiSearchUrl, {
+                method: 'POST', 
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-Api-Key': apikey
+                },
+                body: JSON.stringify(data),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
             //END OF UNCOMMENT SECTION====================================================== 
 
 
@@ -71,10 +71,10 @@ $ ( document ).ready (function(){
             // COMMENT OUT WHEN GOING LIVE==================================================
 
                 // call JSON/API Info
-                $.getJSON(jsonData, function(data){
+                // $.getJSON(jsonData, function(data){
 
                     // look at returned data
-                    console.log(data);
+                    // console.log(data);
             // END OF COMMENT OUT SECTION===================================================
 
 
@@ -129,7 +129,7 @@ $ ( document ).ready (function(){
                                 lat: data[index].listing.propertyDetails.latitude,
                                 lon: data[index].listing.propertyDetails.longitude
                             }
-                            var getDirections = 'https://www.google.com/maps/dir/?api=1&origin=-35.2976105,149.0965294&destination=' + getLatitudeAndLongitude.lat + ', ' + getLatitudeAndLongitude.lon
+                            var getDirections = 'https://www.google.com/maps/dir/?api=1&origin=-currentLocation&destination=' + getLatitudeAndLongitude.lat + ', ' + getLatitudeAndLongitude.lon
 
 
                             // attach new card with all created and retrieved data
@@ -142,9 +142,9 @@ $ ( document ).ready (function(){
             })
 
             // UNCOMMENT ON LIVE APP========================================================
-            // .catch((error) => {
-            //     console.error('Error:', error);
-            // });
+            .catch((error) => {
+                console.error('Error:', error);
+            });
             //END OF UNCOMMENT SECTION======================================================
 
 
@@ -168,33 +168,20 @@ $ ( document ).ready (function(){
         console.log("showInfo Clicked")
         // toggle the info area open and closed
         $(this).closest(".card").children( ".info" ).toggleClass("flexIt");
-        $(this).children( ".fa-info" ).toggleClass("selected");        
+        $(this).children( ".fa-clipboard-list" ).toggleClass("selected");        
     });
 
+// CREATE RATING FUNCTION
+    $(document).on('hover', '.card', function(){
+        console.log('bam');
+    })
+    // $('.card').hover( console.log('hello'), console.log('goodbye'))
 
-    // Star rating stuff...=======================================
-    $('.ratings_stars').hover(
-        // Handles the mouseover
-        function() {
-            $(this).prevAll().andSelf().addClass('ratings_over');
-            $(this).nextAll().removeClass('ratings_vote'); 
-        },
-        // Handles the mouseout
-        function() {
-            $(this).prevAll().andSelf().removeClass('ratings_over');
-    
-        }
-    ).click(function() {
-       $('.ratings_stars').removeClass('chosen'); // Removes the chosen class from all of them
-       $(this).prevAll().andSelf().addClass('chosen').removeClass('ratings_over'); // Adds the chosen class to just the one you clicked
-    
-       var rating = $(this).data('rating');
-       //alert(rating);
-        // Get the rating from the chosen star
-       $('#rating').val(rating); // Set the value of the hidden rating form element
-    });
-    // Star rating stuff...=======================================
+
 
     console.log("JQ good to go...")
 // END OF 
 // });
+
+var cards = document.querySelectorAll('.card')
+console.log(cards)

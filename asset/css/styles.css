@@ -3,7 +3,7 @@
 
 :root{
     --mainGreen: #0ea800;
-    --shadowGreen: #085001;
+    --shadowGreen: #297722;
     --white: #FFFFFF;
     --backGrey: #F2F5F7;
     --borderGrey: #D0D3D8;
@@ -142,7 +142,7 @@ footer{
 }
 
 .rating{
-    color: var(--mainGreen);
+    /* color: var(--mainGreen); */
 }
 
 .info{
@@ -232,7 +232,6 @@ h5{
     font-size: .7rem;
     padding-top: 6px;
     font-weight: 700;
-    /* color: var(--mainGreen); */
 }
 
 i{
@@ -240,12 +239,11 @@ i{
 }
 .selected{
     color: var(--mainGreen);
-    text-shadow: 0px 2px 4px var(--shadowGreen);
 }
 
 i:hover{
     transition: color 0.3s;
-    color: var(--mainGreen);
+    color: var(--shadowGreen);
 }
 
 .fa-trash-alt:hover{
@@ -261,7 +259,7 @@ i:hover{
 /* ==============rating stuff============== */
 
 .ratings_stars{
-    color: red;
+    /* color: red; */
 }
 .chosen{
     color: #0ff;
@@ -269,7 +267,7 @@ i:hover{
 .ratings_over{
     color: #fcc;
 }
-.chosen.ratings_over{
+.ratings_over{
     color: #cff;
 }
 
