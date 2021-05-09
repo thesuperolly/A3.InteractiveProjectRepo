@@ -254,25 +254,3 @@ i:hover{
     border-radius: 0;
     outline: 1px solid var(--borderGrey);
 }
-
-
-/* ==============rating stuff============== */
-
-.ratings_stars{
-    /* color: red; */
-}
-.chosen{
-    color: #0ff;
-}
-.ratings_over{
-    color: #fcc;
-}
-.ratings_over{
-    color: #cff;
-}
-
-
-
-/* :active{
-
-} */
