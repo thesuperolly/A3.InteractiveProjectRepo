@@ -141,10 +141,6 @@ footer{
     font-size: 1.5rem;
 }
 
-.rating{
-    /* color: var(--mainGreen); */
-}
-
 .info{
     display: none;
     flex-direction: column;
