@@ -12,7 +12,7 @@
          setOrder +';"><div class="lineItem"><div class="cardLeft"><div class="cardThumbnail"><img src="' + 
          image + '" alt=""></div><div class="cardCenter"><h4>' + 
          address + '</h4><div class="rating"><i class="fas fa-star ratings_stars"></i><i class="fas fa-star ratings_stars"></i><i class="fas fa-star ratings_stars"></i><i class="fas fa-star altColor ratings_stars"></i><i class="fas fa-star altColor ratings_stars"></i></div></div><div class="cardRight"><h5 class="inspectionTime">'+ 
-         inspectionTimes +'</h5><div class="cardRightIcons"><div class="showInfo"><i class="fas fa-clipboard-list"></i></div><div><a href="' + 
+         inspectionTimes +'</h5><div class="cardRightIcons"><div><a href="' + 
          getDirections +'" target="_blank"><i class="fas fa-directions"></i></a></div><div><i class="far fa-trash-alt"></i></div></div></div></div></div><div class="info"><div class="priceInfo"><h4>' + 
          priceGuide + '</h4></div><div class="notesArea"><h4>My Notes:</h4><textarea placeholder="What lovely flooring" name="notes"></textarea></div></div></div>');
         }
@@ -45,12 +45,11 @@ $ ( document ).ready (function(){
 
 // CREATE INFO SECTION TOGGLE
     // when Info circle clicked
-    $(document).on('click', '.showInfo', function () {
+    $(document).on('click', '.cardThumbnail, .cardCenter', function () {
         // log click
         console.log("showInfo Clicked")
         // toggle the info area open and closed
-        $(this).closest(".card").children( ".info" ).toggleClass("flexIt");
-        $(this).children( ".fa-clipboard-list" ).toggleClass("selected");        
+        $(this).closest(".card").children( ".info" ).toggleClass("flexIt");        
     });
 
 // CREATE RATING FUNCTION
